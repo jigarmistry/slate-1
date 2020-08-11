@@ -26,6 +26,7 @@ import RichText from '../../examples/richtext'
 import SearchHighlighting from '../../examples/search-highlighting'
 import CodeHighlighting from '../../examples/code-highlighting'
 import Tables from '../../examples/tables'
+import IFrames from '../../examples/iframe'
 
 const EXAMPLES = [
   ['Checklists', CheckLists, 'check-lists'],
@@ -46,6 +47,7 @@ const EXAMPLES = [
   ['Search Highlighting', SearchHighlighting, 'search-highlighting'],
   ['Code Highlighting', CodeHighlighting, 'code-highlighting'],
   ['Tables', Tables, 'tables'],
+  ['Rendering in iframes', IFrames, 'iframes'],
 ]
 
 const Header = props => (
